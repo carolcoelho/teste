@@ -1,0 +1,25 @@
+.content {
+    width: 70%;
+
+    .books-list {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        align-items: center;
+        list-style: none;
+
+        li {
+            display: flex;
+            padding: 50px;
+            flex-direction: column;
+            align-items: center;
+            p {
+                font-size: 12px;
+                text-align: center;
+            }
+
+            .small {
+                color: rgb(118, 118, 118);
+            }
+        }
+    }
+}
